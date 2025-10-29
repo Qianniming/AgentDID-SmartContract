@@ -1,0 +1,32 @@
+{
+  "name": "agent-did-smart-contract",
+  "version": "1.0.0",
+  "description": "Agent DID Smart Contract for decentralized identity management",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:localhost": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy-sepolia.js --network sepolia",
+    "verify:sepolia": "hardhat verify --network sepolia",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "blockchain",
+    "smart-contract",
+    "did",
+    "agent",
+    "identity"
+  ],
+  "author": "Agent DID Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "hardhat": "^2.26.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
+  }
+}

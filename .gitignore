@@ -1,0 +1,59 @@
+# 环境变量文件 - 包含敏感信息，绝对不要提交
+.env
+
+# Node.js 依赖
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Hardhat 构建文件
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# 编译器输出
+*.tsbuildinfo
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 测试覆盖率报告
+coverage/
+.nyc_output/
+
+# 私钥和密钥文件
+*.key
+*.pem
+private-keys/
+
+# 部署记录（可能包含敏感信息）
+deployments/localhost/
+deployments/hardhat/
+
+# 其他敏感配置
+.secret
+.private
+config/local.json
