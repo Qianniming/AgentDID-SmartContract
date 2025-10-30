@@ -1,6 +1,6 @@
 # 🤖 AgentDID Smart Contract
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Hardhat](https://img.shields.io/badge/Built%20with-Hardhat-FFDB1C.svg)](https://hardhat.org/)
 [![Solidity](https://img.shields.io/badge/Solidity-%5E0.8.19-363636)](https://soliditylang.org/)
 
@@ -25,7 +25,8 @@ AgentDID 是一个创新的智能合约系统，为 AI 代理提供去中心化�
 - **合约地址**: [`0x8E2e0E6c73157CA291fA978102b4db80381C916C`](https://sepolia.etherscan.io/address/0x8E2e0E6c73157CA291fA978102b4db80381C916C)
 - **网络**: Sepolia Testnet
 - **状态**: ✅ 已验证
-- **部署时间**: 2024年
+- **部署时间**: 2025年10月30日
+- **开发者**: Qianniming
 
 ### 合约信息
 - **Agent Name**: AI Assistant Agent
@@ -196,7 +197,21 @@ npm run node
 
 ## 许可证
 
-MIT License
+Apache License 2.0
+
+Copyright 2025 Qianniming
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 ## 贡献
 

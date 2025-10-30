@@ -1,10 +1,14 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: Apache-2.0
 pragma solidity ^0.8.19;
 
 /**
  * @title AgentDID
  * @dev Agent DID智能合约，实现AI Agent的身份管理和DID（去中心化身份）功能
- * @author Agent DID Team
+ * @author Qianniming
+ * @notice 基于以太坊的去中心化身份管理智能合约
+ * @custom:version 1.0.0
+ * @custom:date 2025-10-30
+ * @custom:license Apache-2.0
  */
 contract AgentDID {
     // ============ 枚举类型定义 ============
